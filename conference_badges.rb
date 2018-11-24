@@ -9,5 +9,6 @@ end
 def assign_rooms(speakers)
   new_arr = []
   speakers.each_with_index{ |speaker, index|
-    puts "Hello, #{speaker}! You'll stay in room #{index+1}." }
+    new_arr << "Hello, #{speaker}! You'll stay in room #{index+1}." }
+      new_arr
 end
