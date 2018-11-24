@@ -12,3 +12,10 @@ def assign_rooms(speakers)
   new_arr << "Hello, #{name}! You'll be assigned to room #{i+1}!"}
   new_arr
 end
+
+def printer(attendees)
+  
+end
+
+  
+end 
