@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  names.map do |name|
+  names.map { |name| badge_make(name) }
   end
 end
 
